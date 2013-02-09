@@ -1,0 +1,30 @@
+Make Queue class
+	add()
+	remove()
+	isEmpty()
+	size()
+
+Make State class with rules
+	global String to append "U D L R" to
+	use charAt() to get individual letters
+
+	have accessors to return:
+		values in array
+		space variable location
+		moves variable
+
+	make Constructor that takes all those variables
+	  This lets a clone of the parent state be made
+	
+	Make 4 Move Methods:
+		When a move happens change space index and array
+		Also add letter of the move to the list
+	
+	Other Methods:
+		ifGoalState = bool
+		printMoves  = toString probably
+
+Main Program:	
+	take in string of numbers to set up
+	loop: while queue isn't empty and notGoalState
+

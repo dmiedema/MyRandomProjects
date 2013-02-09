@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5405CAF014C600340024DAF5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5405CAEE14C600340024DAF5 /* icon.png */; };
+		5405CAF114C600340024DAF5 /* icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5405CAEF14C600340024DAF5 /* icon-alt.png */; };
+		548D030614C56AB400327EED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548D030514C56AB400327EED /* Cocoa.framework */; };
+		548D031014C56AB400327EED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548D030E14C56AB400327EED /* InfoPlist.strings */; };
+		548D031214C56AB400327EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D031114C56AB400327EED /* main.m */; };
+		548D031614C56AB400327EED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 548D031414C56AB400327EED /* Credits.rtf */; };
+		548D031914C56AB400327EED /* TIIAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D031814C56AB400327EED /* TIIAAppDelegate.m */; };
+		548D031C14C56AB400327EED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548D031A14C56AB400327EED /* MainMenu.xib */; };
+		548D032914C56ADE00327EED /* CustomDocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D032814C56ADE00327EED /* CustomDocks.m */; };
+		54BF248114C91E8800D07DA4 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF247F14C91E8800D07DA4 /* Preferences.m */; };
+		54BF248214C91E8800D07DA4 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54BF248014C91E8800D07DA4 /* Preferences.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5405CAEE14C600340024DAF5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5405CAEF14C600340024DAF5 /* icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-alt.png"; sourceTree = "<group>"; };
+		548D030114C56AB400327EED /* Custom Docks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Docks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		548D030514C56AB400327EED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		548D030814C56AB400327EED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		548D030914C56AB400327EED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		548D030A14C56AB400327EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		548D030D14C56AB400327EED /* Custom Docks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Custom Docks-Info.plist"; sourceTree = "<group>"; };
+		548D030F14C56AB400327EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548D031114C56AB400327EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		548D031314C56AB400327EED /* Custom Docks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Custom Docks-Prefix.pch"; sourceTree = "<group>"; };
+		548D031514C56AB400327EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		548D031714C56AB400327EED /* TIIAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIIAAppDelegate.h; sourceTree = "<group>"; };
+		548D031814C56AB400327EED /* TIIAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIIAAppDelegate.m; sourceTree = "<group>"; };
+		548D031B14C56AB400327EED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		548D032714C56ADE00327EED /* CustomDocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDocks.h; sourceTree = "<group>"; };
+		548D032814C56ADE00327EED /* CustomDocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDocks.m; sourceTree = "<group>"; };
+		54BF247E14C91E8800D07DA4 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preferences.h; path = ../Preferences.h; sourceTree = "<group>"; };
+		54BF247F14C91E8800D07DA4 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = ../Preferences.m; sourceTree = "<group>"; };
+		54BF248014C91E8800D07DA4 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preferences.xib; path = ../Preferences.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548D02FE14C56AB400327EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548D030614C56AB400327EED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548D02F614C56AB400327EED = {
+			isa = PBXGroup;
+			children = (
+				5405CAEE14C600340024DAF5 /* icon.png */,
+				5405CAEF14C600340024DAF5 /* icon-alt.png */,
+				548D030B14C56AB400327EED /* Custom Docks */,
+				548D030414C56AB400327EED /* Frameworks */,
+				548D030214C56AB400327EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		548D030214C56AB400327EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548D030114C56AB400327EED /* Custom Docks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548D030414C56AB400327EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548D030514C56AB400327EED /* Cocoa.framework */,
+				548D030714C56AB400327EED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548D030714C56AB400327EED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548D030814C56AB400327EED /* AppKit.framework */,
+				548D030914C56AB400327EED /* CoreData.framework */,
+				548D030A14C56AB400327EED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		548D030B14C56AB400327EED /* Custom Docks */ = {
+			isa = PBXGroup;
+			children = (
+				548D031714C56AB400327EED /* TIIAAppDelegate.h */,
+				548D031814C56AB400327EED /* TIIAAppDelegate.m */,
+				548D032714C56ADE00327EED /* CustomDocks.h */,
+				548D032814C56ADE00327EED /* CustomDocks.m */,
+				548D031A14C56AB400327EED /* MainMenu.xib */,
+				54BF247E14C91E8800D07DA4 /* Preferences.h */,
+				54BF247F14C91E8800D07DA4 /* Preferences.m */,
+				54BF248014C91E8800D07DA4 /* Preferences.xib */,
+				548D030C14C56AB400327EED /* Supporting Files */,
+			);
+			path = "Custom Docks";
+			sourceTree = "<group>";
+		};
+		548D030C14C56AB400327EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548D030D14C56AB400327EED /* Custom Docks-Info.plist */,
+				548D030E14C56AB400327EED /* InfoPlist.strings */,
+				548D031114C56AB400327EED /* main.m */,
+				548D031314C56AB400327EED /* Custom Docks-Prefix.pch */,
+				548D031414C56AB400327EED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548D030014C56AB400327EED /* Custom Docks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548D031F14C56AB400327EED /* Build configuration list for PBXNativeTarget "Custom Docks" */;
+			buildPhases = (
+				548D02FD14C56AB400327EED /* Sources */,
+				548D02FE14C56AB400327EED /* Frameworks */,
+				548D02FF14C56AB400327EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Docks";
+			productName = "Custom Docks";
+			productReference = 548D030114C56AB400327EED /* Custom Docks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548D02F814C56AB400327EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ThisIsAnApp;
+			};
+			buildConfigurationList = 548D02FB14C56AB400327EED /* Build configuration list for PBXProject "Custom Docks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 548D02F614C56AB400327EED;
+			productRefGroup = 548D030214C56AB400327EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548D030014C56AB400327EED /* Custom Docks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548D02FF14C56AB400327EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548D031014C56AB400327EED /* InfoPlist.strings in Resources */,
+				548D031614C56AB400327EED /* Credits.rtf in Resources */,
+				548D031C14C56AB400327EED /* MainMenu.xib in Resources */,
+				5405CAF014C600340024DAF5 /* icon.png in Resources */,
+				5405CAF114C600340024DAF5 /* icon-alt.png in Resources */,
+				54BF248214C91E8800D07DA4 /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548D02FD14C56AB400327EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548D031214C56AB400327EED /* main.m in Sources */,
+				548D031914C56AB400327EED /* TIIAAppDelegate.m in Sources */,
+				548D032914C56ADE00327EED /* CustomDocks.m in Sources */,
+				54BF248114C91E8800D07DA4 /* Preferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		548D030E14C56AB400327EED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548D030F14C56AB400327EED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		548D031414C56AB400327EED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548D031514C56AB400327EED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		548D031A14C56AB400327EED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548D031B14C56AB400327EED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548D031D14C56AB400327EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		548D031E14C56AB400327EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		548D032014C56AB400327EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom Docks/Custom Docks-Prefix.pch";
+				INFOPLIST_FILE = "Custom Docks/Custom Docks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		548D032114C56AB400327EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom Docks/Custom Docks-Prefix.pch";
+				INFOPLIST_FILE = "Custom Docks/Custom Docks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548D02FB14C56AB400327EED /* Build configuration list for PBXProject "Custom Docks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548D031D14C56AB400327EED /* Debug */,
+				548D031E14C56AB400327EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548D031F14C56AB400327EED /* Build configuration list for PBXNativeTarget "Custom Docks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548D032014C56AB400327EED /* Debug */,
+				548D032114C56AB400327EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548D02F814C56AB400327EED /* Project object */;
+}
